@@ -9,9 +9,9 @@ for n in range(5,1000,5):
 #you need an elif if you want to print the word and not the number
 #you need an else if you want to print the numbers 
 for n in range(1,101,1):
-    if n % 5 == 0:
+    if n % 10 == 0:
         print("coding")
-    elif n % 10 == 0:
+    elif n % 5 == 0:
         print("coding dojo")
     else:
         print (n)
